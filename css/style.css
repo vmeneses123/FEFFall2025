@@ -7,8 +7,9 @@ body {
 
 h1 {
     text-align: center;
-    color: blue;
-    color: #0000FF;
-    color: rgb(0, 0, 255);
+    font-weight: 100;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 300%;
+    color: rgb(234, 56, 178);
 }
 
