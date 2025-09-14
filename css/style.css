@@ -2,14 +2,22 @@
 
 
 
-h1 {
-
+.main-title {
+ 
     color: rgb(87, 167, 111);
     text-align: center;
     font-weight: 100;
     font-family: 'Times New Roman', Times, serif;
     font-size: 300%;
 }
+
+.short-story-title {
+  font-size: 28px;
+  text-align: center;
+  color:  #893896;
+  margin-top: 40px;
+}
+
 
 section img {
     width: auto;
@@ -69,6 +77,37 @@ li {
         margin-right: auto;
 
     }
+
+    nav {
+  background: #efd4ff;      
+        width: 960px;
+
+        padding: 20px;
+        text-align: center;
+        height: auto;
+
+        margin: 0 auto;
+}
+.story-text {
+  font-size: 18px;
+  line-height: 1.6;
+  color: #893896;
+}
+
+nav a {
+  color: #893896;        
+  text-decoration: none;  
+  margin: 0 45px;        
+  padding: 5px 10px;     
+}
+
+nav a:hover {
+  color: #00008B;        
+}
+
+
+
+
 /*   footer {
         background-color: lightgreen;
         width: 960px;
@@ -103,3 +142,4 @@ li {
     }
 
 */
+
