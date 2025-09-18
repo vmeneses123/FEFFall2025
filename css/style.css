@@ -1,7 +1,6 @@
 /* this is where I style my webpage */
 
 
-
 .main-title {
  
     color: rgb(87, 167, 111);
@@ -9,22 +8,13 @@
     font-weight: 100;
     font-family: 'Times New Roman', Times, serif;
     font-size: 300%;
+
 }
-/* hi */
 .short-story-title {
   font-size: 28px;
   text-align: center;
   color:  #893896;
   margin-top: 40px;
-}
-
-
-section img {
-    width: auto;
-    height: 200px;
-    display: inline-block;
-    margin-right: 10px;
-    vertical-align: middle;
 }
 
 
@@ -60,16 +50,19 @@ li {
     font-family: 'georgia', serif;
 }
  
-    p {
+p {
         font-size: 16px;
         line-height: 1.5;
     }
-    img {
-        max-width: 100%;
-        height: auto;
+img {
+
+    display: block;
+    width: 200px;
+    height: auto;
         margin: 10px 0;
     }
-    header {
+
+header {
         background-color: coral;
         width: 960px;
         padding: 20px;
@@ -78,7 +71,7 @@ li {
 
     }
 
-    nav {
+nav {
   background: #efd4ff;      
         width: 960px;
 
@@ -97,7 +90,7 @@ li {
 nav a {
   color: #893896;        
   text-decoration: none;  
-  margin: 0 45px;        
+  margin: 0 20px;        
   padding: 5px 10px;     
 }
 
@@ -105,41 +98,8 @@ nav a:hover {
   color: #00008B;        
 }
 
-
-
-
-/*   footer {
-        background-color: lightgreen;
-        width: 960px;
-        padding: 200px;
-        margin-left: auto;
-        margin-right: auto;
-
-    }
-*/
-/*
-    nav ul {
-        display: block;
-        grid-template-rows: auto;
-        grid-template-columns: 1fr 1fr 1fr;
-
-
-    }
-
-    nav ul li{
-        list-style: none;
-        
-    }
-
-    nav ul li a {
-        font-size: 20px;
-        text-decoration: none;
-        color: black;
-    }
-
-    nav ul li a:hover {
-        text-underline-offset: lightgray;
-    }
-
-*/
-
+.box {
+  background: rgb(173, 230, 177); 
+  padding: 20px;        
+  box-shadow: 5px 5px 15px rgba(0,0,0,0.3); 
+}
