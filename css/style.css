@@ -121,21 +121,20 @@ img {
 }
   @media (max-width: 768px) {
   main, nav {
-    width: 90%;          /* box is smaller than screen */
-    margin: 20px auto;   /* center the box horizontally */
-    padding: 20px;       /* keep inner spacing */
-    box-sizing: border-box; /* ensures padding doesn’t add to width */
-    border-radius: 10px; /* optional: make it look nicer */
+    width: 90%;        
+    margin: 20px auto;   
+    padding: 20px;      
+    box-sizing: border-box; 
   }
 
   .main-title {
-    text-align: center;  /* center the text inside the green box */
+    text-align: center;  
   }
 
   nav {
     display: flex;
     flex-direction: column;
-    align-items: center; /* center links inside nav box */
+    align-items: center; 
     gap: 10px;
   }
 
