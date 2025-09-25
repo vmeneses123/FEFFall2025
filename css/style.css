@@ -52,8 +52,9 @@ nav {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
   background: #efd4ff;
-  width: 960px;
   padding: 20px;
+
+  width: 960px;
   text-align: center;
   margin: auto;
 }
