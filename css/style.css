@@ -119,6 +119,8 @@ img {
 }
 @media (max-width: 768px) {
   main, header, nav {
+
+  justify-self: center;
     width: 100%;
   }
 
