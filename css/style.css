@@ -124,7 +124,6 @@ img {
     width: 90%;        
     margin: 20px auto;   
     padding: 20px;      
-    box-sizing: border-box; 
   }
 
   .main-title {
@@ -142,6 +141,6 @@ img {
     display: inline-block;
     text-align: center;
     padding: 10px 20px;
-    margin: 5px 0;
+    margin: 5px 0; 
   }
 }
