@@ -49,12 +49,15 @@ li {
 }
 
 nav {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
   background: #efd4ff;
   width: 960px;
   padding: 20px;
   text-align: center;
-  margin: 0 auto;
+  margin:  auto;
 }
+
 
 nav a {
   color: #893896;
@@ -83,4 +86,39 @@ img {
   background: rgb(119, 182, 142);
   padding: 20px;
   box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+.story-text {
+  column-count: 3;
+  column-gap: 30px;
+}
+
+
+#section2 ul {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+
+#section3 ul {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+
+
+#section4 ol {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+@media screen and (max-width: 600px) {
+  nav {
+    display: grid;
+    grid-template-columns: 1fr; 
+    gap: 10px;
+  }
 }
