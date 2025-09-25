@@ -7,6 +7,8 @@ body {
 
 main {
   background-color: rgb(0, 50, 3);
+
+  justify-self: center;
   width: 960px;
   padding: 20px;
   margin: 0 auto;
@@ -129,16 +131,16 @@ img {
   nav {
     display: flex;
     flex-direction: column;
-    align-items: center;   /* center the boxes */
+    align-items: center;
     gap: 10px;
     margin-top: 15px;
   }
 
   nav a {
     display: inline-block;
-    width: auto;           /* shrink to fit text */
-    padding: 10px 20px;    /* balanced button size */
-    margin: 0;             /* remove old margins */
+    width: auto;           
+    padding: 10px 20px;   
+    margin: 0;             
     text-align: center;
   }
 
